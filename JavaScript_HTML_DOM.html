@@ -3,21 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Crab Web Page</title>
-<script language="JavaScript">
-<!--
-function listTags()
-{
- var tag, tags;
- // or you can use var allElem=document.all; and loop on it
- tags = "The tags in the page are:"
- for(i = 0; i < document.all.length; i++)
- {
-   tag = document.all(i).tagName;
-   tags = tags + "<br/>" + tag;
- }
- document.write(tags);
-}// -->
-</script>
+
 </head>
 
 <body>
@@ -47,6 +33,22 @@ function listTags()
 <p>Serve at once with tartar sauce, mustard, or cocktail sauce on the side.</p>
 
 <h4>Serves 6 people</h4>
+
+<script language="JavaScript">
+<!--
+function listTags()
+{
+ var tag, tags;
+ // or you can use var allElem=document.all; and loop on it
+ tags = "The tags in the page are:"
+ for(i = 0; i < document.all.length; i++)
+ {
+   tag = document.all(i).tagName;
+   tags = tags + "<br/>" + tag;
+ }
+ document.write(tags);
+}// -->
+</script>
 
 </body>
 
